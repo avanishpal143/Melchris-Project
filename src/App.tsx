@@ -9,10 +9,11 @@ import Testimonials from './components/Testimonials';
 import FAQs from './components/FAQs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white overflow-x-hidden">
       <Header />
       <Hero />
       <About />
@@ -24,6 +25,7 @@ function App() {
       <FAQs />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
